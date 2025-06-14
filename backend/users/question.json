@@ -1,0 +1,52 @@
+[
+  {
+    "jobTitle": "Frontend Developer (Angular)",
+    "questions": [
+      {
+        "question": "What is Angular?",
+        "answer": "Angular is a TypeScript-based open-source front-end framework for building web applications."
+      },
+      {
+        "question": "Explain data binding in Angular.",
+        "answer": "Angular supports one-way and two-way data binding using [ ], ( ), and [( )] syntax."
+      },
+      {
+        "question": "What is a component in Angular?",
+        "answer": "A component is a building block of the UI that controls a part of the screen using HTML, CSS, and TypeScript."
+      },
+      {
+        "question": "What is Angular CLI used for?",
+        "answer": "It is a command-line interface tool to scaffold, develop, and manage Angular projects."
+      },
+      {
+        "question": "What are Angular Signals?",
+        "answer": "Signals are reactive primitives that notify when their values change, introduced for fine-grained reactivity."
+      }
+    ]
+  },
+  {
+    "jobTitle": "Backend Developer (Node.js)",
+    "questions": [
+      {
+        "question": "What is Node.js?",
+        "answer": "Node.js is a JavaScript runtime built on Chrome’s V8 engine used to build scalable network applications."
+      },
+      {
+        "question": "What is the event loop in Node.js?",
+        "answer": "The event loop handles asynchronous operations and ensures non-blocking I/O."
+      },
+      {
+        "question": "What are common HTTP status codes?",
+        "answer": "200 (OK), 201 (Created), 400 (Bad Request), 401 (Unauthorized), 500 (Server Error)."
+      },
+      {
+        "question": "What is middleware in Express?",
+        "answer": "Middleware functions access the request/response cycle and perform operations like authentication and logging."
+      },
+      {
+        "question": "How do you handle errors in Node.js?",
+        "answer": "Use try/catch for sync code, .catch() for promises, and error-handling middleware in Express."
+      }
+    ]
+  }
+]
