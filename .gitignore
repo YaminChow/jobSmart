@@ -1,3 +1,24 @@
+<<<<<<< HEAD
+# compiled output
+/dist/
+/out-tsc/
+
+# node dependencies
+/node_modules/
+
+# env files
+/.env
+
+# IDE files
+/.vscode/
+/.idea/
+/.DS_Store
+
+# angular cache
+.angular/cache/
+
+#testing
+=======
 # Node modules
 node_modules/
 
@@ -27,3 +48,4 @@ build/
 
 # Coverage reports
 coverage/
+>>>>>>> 3d42e7caa62d580e5488d5dd2b705f92d510a6e0
