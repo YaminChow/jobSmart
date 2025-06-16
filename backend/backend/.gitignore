@@ -1,0 +1,19 @@
+# compiled output
+/dist/
+/out-tsc/
+
+# node dependencies
+/node_modules/
+
+# env files
+/.env
+
+# IDE files
+/.vscode/
+/.idea/
+/.DS_Store
+
+# angular cache
+.angular/cache/
+
+#testing
