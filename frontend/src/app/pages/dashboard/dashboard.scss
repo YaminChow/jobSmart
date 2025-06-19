@@ -1,0 +1,17 @@
+.table-container {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 16px;
+  overflow-x: auto;
+}
+
+.mat-table {
+  width: 100%;
+  min-width: 600px;
+}
+
+.centered-header th{
+  text-align: center;
+  vertical-align: center;
+}

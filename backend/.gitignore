@@ -1,51 +1,58 @@
-<<<<<<< HEAD
-# compiled output
-/dist/
-/out-tsc/
-
-# node dependencies
-/node_modules/
-
-# env files
-/.env
-
-# IDE files
-/.vscode/
-/.idea/
-/.DS_Store
-
-# angular cache
-.angular/cache/
-
-#testing
-=======
-# Node modules
+# --- Node dependencies ---
 node_modules/
 
-# Environment files
-.env
-.env.local
+# --- Build output ---
+dist/
+build/
+out/
+out-tsc/
+lib/
 
-# Logs
+# --- TypeScript compiled files ---
+*.js
+*.jsx
+*.js.map
+*.tsbuildinfo
+
+# --- Environment variable files ---
+.env
+.env.*
+!.env.example
+
+# --- Logs ---
 logs
 *.log
 npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-# OS files
-.DS_Store
-
-# Build files
-dist/
-build/
-
-# IDE files
+# --- IDE / Editor folders ---
 .vscode/
 .idea/
-*.swp
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
 
-# Typescript
-*.tsbuildinfo
+# --- OS files ---
+.DS_Store
+Thumbs.db
 
-# Coverage reports
+# --- Angular specific ---
+.angular/
+.angular-cache/
+.cache/
+
+# --- Coverage reports ---
 coverage/
->>>>>>> 3d42e7caa62d580e5488d5dd2b705f92d510a6e0
+test-results/
+
+# --- Optional lock files ---
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# --- Misc ---
+*.bak
+*.tmp
+*.swp

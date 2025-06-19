@@ -1,0 +1,73 @@
+<h2>Interview Question Answer!</h2>
+
+<mat-card class="form-container">
+  <form [formGroup]="form" (ngSubmit)="onSubmit()">
+    <!-- Job Title -->
+    <mat-form-field appearance="fill" class="full-width">
+      <mat-label>Job Title</mat-label>
+      <input matInput formControlName="jobTitle" required />
+    </mat-form-field>
+
+    <!-- Job Description -->
+    <mat-form-field appearance="fill" class="full-width">
+      <mat-label>Job Description</mat-label>
+      <textarea
+        matInput
+        formControlName="jobDescription"
+        rows="6"
+        class="jd-box"
+        required
+      ></textarea>
+    </mat-form-field>
+
+    <mat-form-field appearance="fill" class="full-width">
+      <mat-label>Resume</mat-label>
+      <textarea
+        matInput
+        formControlName="resumeText"
+        rows="6"
+        class="resume-box"
+        required
+      ></textarea>
+    </mat-form-field>
+    
+    <div class="button-group">
+      <button
+        mat-raised-button
+        color="primary"
+        type="button"
+        (click)="generateQuestions()"
+        [disabled]="isGenerating"
+      >
+        {{ isGenerating ? 'Generating...' : 'Generate' }}
+      </button>
+    </div>
+    
+    <mat-card *ngIf="questions?.length" class="qa-section">
+      <h3>Generated Question & Answer List</h3>
+      <mat-accordion>
+        <mat-expansion-panel *ngFor="let qa of questions; let i = index">
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              {{ i + 1 }}. {{ qa.question }}
+            </mat-panel-title>
+          </mat-expansion-panel-header>          
+          <p><strong>Answer:</strong> {{ qa.answer }}</p>
+        </mat-expansion-panel>
+      </mat-accordion>
+    </mat-card>
+    
+    <div class="button-group bottom-buttons">
+      <button
+        mat-raised-button
+        color="accent"
+        type="submit"
+        [disabled]="isSaving"
+      >
+        {{ isSaving ? 'Saving...' : 'Save' }}
+      </button>
+
+      <button mat-button type="button" (click)="onCancel()">Cancel</button>
+    </div>
+  </form>
+</mat-card>

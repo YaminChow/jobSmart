@@ -1,0 +1,24 @@
+.form-container {
+  padding: 20px;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.button-group {
+  margin-top: 16px;
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.bottom-buttons {
+  margin-top: 32px;
+}
+
+.qa-section {
+  margin-top: 24px;
+  padding: 16px;
+  background-color: #f6f6f6;
+}

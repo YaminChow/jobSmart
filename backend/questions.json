@@ -1,0 +1,176 @@
+[{
+  "jobTitle": "Frontend Developer (Angular)",
+  "questions": [
+    {
+      "question": "What is Angular?",
+      "answer": "Angular is a TypeScript-based open-source front-end framework for building web applications."
+    },
+    {
+      "question": "Explain data binding in Angular.",
+      "answer": "Angular supports one-way and two-way data binding using `[ ]`, `( )`, and `[( )]` syntax."
+    },
+    {
+      "question": "What is a component in Angular?",
+      "answer": "A component is a building block of the UI that controls a part of the screen using HTML, CSS, and TypeScript."
+    },
+    {
+      "question": "What is Angular CLI used for?",
+      "answer": "It is a command-line interface tool to scaffold, develop, and manage Angular projects."
+    },
+    {
+      "question": "What are Angular Signals?",
+      "answer": "Signals are reactive primitives that notify when their values change, introduced for fine-grained reactivity."
+    }
+  ]
+},
+{
+  "jobTitle": "Backend Developer (Node.js)",
+  "questions": [
+    {
+      "question": "What is Node.js?",
+      "answer": "Node.js is a JavaScript runtime built on Chrome’s V8 engine used to build scalable network applications."
+    },
+    {
+      "question": "What is the event loop in Node.js?",
+      "answer": "The event loop handles asynchronous operations and ensures non-blocking I/O."
+    },
+    {
+      "question": "What are common HTTP status codes?",
+      "answer": "200 (OK), 201 (Created), 400 (Bad Request), 401 (Unauthorized), 500 (Server Error)."
+    },
+    {
+      "question": "What is middleware in Express?",
+      "answer": "Middleware functions access the request/response cycle and perform operations like authentication and logging."
+    },
+    {
+      "question": "How do you handle errors in Node.js?",
+      "answer": "Use `try/catch` for sync code, `.catch()` for promises, and error-handling middleware in Express."
+    }
+  ]
+},
+{
+    "jobTitle": "Business Analyst",
+    "questions": [
+      {
+        "question": "What is the role of a Business Analyst?",
+        "answer": "A Business Analyst bridges the gap between business needs and technical solutions by gathering, analyzing, and documenting requirements."
+      },
+      {
+        "question": "What is a use case diagram?",
+        "answer": "A use case diagram visually represents interactions between users (actors) and a system to achieve specific goals."
+      },
+      {
+        "question": "What is SWOT analysis?",
+        "answer": "SWOT analysis evaluates Strengths, Weaknesses, Opportunities, and Threats to assess a project's or organization's strategic position."
+      },
+      {
+        "question": "What are the key components of a BRD?",
+        "answer": "A Business Requirements Document includes project objectives, scope, functional/non-functional requirements, assumptions, and constraints."
+      },
+      {
+        "question": "What is the difference between Waterfall and Agile methodologies?",
+        "answer": "Waterfall is a linear, sequential approach, while Agile is iterative, emphasizing flexibility and continuous delivery."
+      }
+    ]
+  },
+  {
+    "jobTitle": "Java Fullstack Developer",
+    "questions": [
+      {
+        "question": "What is Spring Boot in Java?",
+        "answer": "Spring Boot is a framework that simplifies Java application development by providing auto-configuration and embedded servers."
+      },
+      {
+        "question": "Explain RESTful web services.",
+        "answer": "RESTful web services use HTTP methods (GET, POST, PUT, DELETE) to perform CRUD operations with stateless, resource-based architecture."
+      },
+      {
+        "question": "What is Hibernate in Java?",
+        "answer": "Hibernate is an ORM framework that maps Java objects to database tables, simplifying database interactions."
+      },
+      {
+        "question": "What is the difference between `@Component` and `@Service` in Spring?",
+        "answer": "`@Component` is a generic stereotype for any Spring-managed component, while `@Service` indicates a business logic component."
+      },
+      {
+        "question": "How do you handle exceptions in Java?",
+        "answer": "Exceptions are handled using `try-catch` blocks, `throws` keyword, or custom exceptions for robust error management."
+      }
+    ]
+  },
+  {
+    "jobTitle": "Python Developer",
+    "questions": [
+      {
+        "question": "What are Python decorators?",
+        "answer": "Decorators are functions that modify the behavior of other functions or methods, often used for logging or authentication."
+      },
+      {
+        "question": "What is the difference between a list and a tuple in Python?",
+        "answer": "Lists are mutable and dynamic, while tuples are immutable and fixed in size."
+      },
+      {
+        "question": "What is Django used for?",
+        "answer": "Django is a Python web framework for rapid development of secure and scalable web applications."
+      },
+      {
+        "question": "What are Python generators?",
+        "answer": "Generators are functions that yield values one at a time, enabling memory-efficient iteration."
+      },
+      {
+        "question": "How do you manage dependencies in Python?",
+        "answer": "Dependencies are managed using tools like `pip` and virtual environments, often with a `requirements.txt` file."
+      }
+    ]
+  },
+  {
+    "jobTitle": "Software Engineer",
+    "questions": [
+      {
+        "question": "What is object-oriented programming?",
+        "answer": "OOP is a paradigm based on objects and classes, emphasizing encapsulation, inheritance, polymorphism, and abstraction."
+      },
+      {
+        "question": "What is the SOLID principle?",
+        "answer": "SOLID stands for Single Responsibility, Open/Closed, Liskov Substitution, Interface Segregation, and Dependency Inversion principles."
+      },
+      {
+        "question": "What is a microservices architecture?",
+        "answer": "Microservices architecture structures an application as a collection of loosely coupled, independently deployable services."
+      },
+      {
+        "question": "What is version control, and why is it important?",
+        "answer": "Version control (e.g., Git) tracks code changes, enabling collaboration, rollback, and history management."
+      },
+      {
+        "question": "What is CI/CD?",
+        "answer": "CI/CD (Continuous Integration/Continuous Deployment) automates building, testing, and deploying code for faster, reliable releases."
+      }
+    ]
+  },
+  {
+    "jobTitle": "Quality Assurance Analyst",
+    "questions": [
+      {
+        "question": "What is the difference between manual and automated testing?",
+        "answer": "Manual testing involves human execution of test cases, while automated testing uses scripts/tools for efficiency and repeatability."
+      },
+      {
+        "question": "What is a test case?",
+        "answer": "A test case is a set of conditions, inputs, and expected outcomes designed to verify a specific functionality."
+      },
+      {
+        "question": "What is regression testing?",
+        "answer": "Regression testing ensures new changes have not negatively impacted existing functionalities."
+      },
+      {
+        "question": "What is Selenium used for?",
+        "answer": "Selenium is a tool for automating web application testing across different browsers and platforms."
+      },
+      {
+        "question": "What is the bug life cycle?",
+        "answer": "The bug life cycle tracks a defect from discovery (New) through states like Assigned, Fixed, Verified, and Closed."
+      }
+    ]
+  }
+]

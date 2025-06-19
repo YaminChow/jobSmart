@@ -1,0 +1,27 @@
+.form-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 24px;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.file-upload {
+  margin-top: 20px;
+}
+
+textarea.jd-box,
+textarea.resume-box {
+  width: 100%;
+}
+
+.feedback-section {
+  margin-top: 20px;
+  padding: 16px;
+  background: #f5f5f5;
+  border-radius: 8px;
+}

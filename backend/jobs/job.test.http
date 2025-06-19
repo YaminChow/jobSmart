@@ -1,0 +1,56 @@
+GET http://localhost:3000/jobs
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NzUzMmE2MDk5MDgwMWI2MGM3ZmQ0NzQiLCJmdWxsbmFtZSI6IkFzYWFkIFNhYWQiLCJlbWFpbCI6ImFzYWFkQG1pdS5lZHUiLCJpYXQiOjE3MzM1MDcyMzF9.MjIQyP_GtBFFO4uP7XaAeoCaJM3npbCmo1VPmGxuNVs
+
+###
+POST http://localhost:3000/jobs
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NzUzMmE2MDk5MDgwMWI2MGM3ZmQ0NzQiLCJmdWxsbmFtZSI6IkFzYWFkIFNhYWQiLCJlbWFpbCI6ImFzYWFkQG1pdS5lZHUiLCJpYXQiOjE3MzM1MDcyMzF9.MjIQyP_GtBFFO4uP7XaAeoCaJM3npbCmo1VPmGxuNVs
+
+{    
+  
+  "company": "NextGen Solutions",
+  "jobTitle": "Software Engineer",
+  "jobDescription": "Develop and maintain backend services using Node.js and MongoDB.",
+  "status": "Interview",
+  "salary": 95000,
+  "application_Date": "2024-09-10T00:00:00.000Z",
+  "location": "Austin, TX",
+  "notes": "Had first round interview. Awaiting second round schedule.",
+  "resume": {
+    "fileName": "YeeChow_Resume.pdf",
+    "resumeContent": "Experienced software engineer with a strong background in JavaScript, Node.js, and MongoDB...",
+    "file_Url": "https://resumes.example.com/YeeChow_Resume.pdf"
+  }
+}
+
+
+###
+
+GET http://localhost:3000/jobs/684d925063f83977f205a4d3
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NzUzMmE2MDk5MDgwMWI2MGM3ZmQ0NzQiLCJmdWxsbmFtZSI6IkFzYWFkIFNhYWQiLCJlbWFpbCI6ImFzYWFkQG1pdS5lZHUiLCJpYXQiOjE3MzM1MDcyMzF9.MjIQyP_GtBFFO4uP7XaAeoCaJM3npbCmo1VPmGxuNVs
+###
+
+PUT http://localhost:3000/jobs/684d925063f83977f205a4d3
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NzUzMmE2MDk5MDgwMWI2MGM3ZmQ0NzQiLCJmdWxsbmFtZSI6IkFzYWFkIFNhYWQiLCJlbWFpbCI6ImFzYWFkQG1pdS5lZHUiLCJpYXQiOjE3MzM1MDcyMzF9.MjIQyP_GtBFFO4uP7XaAeoCaJM3npbCmo1VPmGxuNVs
+
+{
+    "company": "NextGen Solutions",
+  "jobTitle": "Software Engineer -Java",
+  "jobDescription": "Develop and maintain backend services using Node.js and MongoDB.",
+  "status": "Interview",
+  "salary": 95000,
+  "application_Date": "2024-09-10T00:00:00.000Z",
+  "location": "Austin, TX",
+  "notes": "Had first round interview. Awaiting second round schedule.",
+  "resume": {
+    "fileName": "YeeChow_Resume.pdf",
+    "resumeContent": "Experienced software engineer with a strong background in JavaScript, Node.js, and MongoDB...",
+    "file_Url": "https://resumes.example.com/YeeChow_Resume.pdf"
+  }
+}
+###
+
+DELETE http://localhost:3000/jobs/684d925063f83977f205a4d3
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NzUzMmE2MDk5MDgwMWI2MGM3ZmQ0NzQiLCJmdWxsbmFtZSI6IkFzYWFkIFNhYWQiLCJlbWFpbCI6ImFzYWFkQG1pdS5lZHUiLCJpYXQiOjE3MzM1MDcyMzF9.MjIQyP_GtBFFO4uP7XaAeoCaJM3npbCmo1VPmGxuNVs
+###
