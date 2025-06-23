@@ -24,22 +24,3 @@ Note: Chat and product listing applications are not allowed.
 ### Technical Evaluation
 Please submit your final project push by 9:00 PM on Tuesday. Prepare a screen-recorded demo that introduces the project concept and demonstrates system usage. Share the video URL via Teams. Do not include or discuss code patterns, as code evaluations will be conducted separately. I will call you on Teams as per the following schedule:  
   
-**Wednesday:**  
-* Ali 10:00 AM
-* Anas 10:30 AM
-* Chanchhunneng 11:00 AM
-* Gideon 11:30 AM
-* Hoang Thien Bao 12:00 PM
-* Hong Thai 2:00 PM
-* Huong Uyen 2:30 PM
-  
-**Thursday:**  
-* Nahid 10:00 AM
-* Raldin Dilone 10:30 AM
-* Rustem 11:00 AM
-* Saikhanbat 11:30 AM
-* Sushil 12:00 PM
-* Yee Ming 2:00 PM
-  
-### Code Honor Submission Policy
-All submitted code must be original. Submitting code from another source as your own, including copied patterns or snippets, constitutes plagiarism and will impact your grade. Using AI code assistance tools or generative AI for coding is prohibited for this project. Failure to explain your code during the technical evaluation will result in a No Credit (NC) grade and an academic misconduct warning for plagiarism. The only permitted AI use is for writing prompts or integrating AI APIs to add smart features to your application. Refer to the syllabus for complete course policies.
